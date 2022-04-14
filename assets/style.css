@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #F3F5FC;
+    padding: 20px;
+}
+#header-img {
+    position: absolute;
+    left: 70px;
+}
+#display {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#input {
+    position: absolute;
+    top: 50px;
+    left: 390px;
+}
+#display input {
+    border: none;
+    background: #F3F5FC;
+    width: 450px;
+    height: 50px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0A3871;
+}
+#display input::placeholder {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0A3871;
+}
+#position {
+    position: absolute;
+    top: 450px;
+    left: 320px;
+}
+#aviso img {
+    position: absolute;
+    left: -8px;
+}
+#aviso {
+    padding: 10px;
+    font-family: 'Inter';
+    color: #495057;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+#button {
+    display: flex;
+}
+#btn1 {
+    width: 280px;
+    height: 50px;
+    padding: 24px;
+    background: #0A3871;
+    color: white;
+    border-radius: 17px;
+    font-family: 'Inter';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#btn1:hover {
+    background-color: #2878d9;
+}
+#btn2 {
+    width: 280px;
+    height: 50px;
+    padding: 24px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    border-radius: 17px;
+    font-family: 'Inter';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#btn2:hover {
+    background-color: #414447;
+    color: white;
+}
+#card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 350px;
+    height: 599px;
+    left: 1030px;
+    top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    padding: 10px;
+}
+#card h3 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #343A40;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+#card p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #495057;
+}
+footer {
+    color: black;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 600;
+    position: absolute;
+    bottom: 15px;
+    left: 510px;
+}
+a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    }
+a:hover {
+    color: rgb(60, 82, 182);
+}
