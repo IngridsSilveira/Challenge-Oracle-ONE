@@ -18,15 +18,11 @@ header {
 }
 section {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 #input {
     position: absolute;
     top: 50px;
-    left: 390px;
+    left: 340px;
 }
 section input {
     border: none;
@@ -48,8 +44,9 @@ section input::placeholder {
 }
 #position {
     position: absolute;
-    top: 450px;
-    left: 320px;
+    top: 410px;
+    left: 260px;
+    margin: auto;
 }
 #notice img {
     display: block;
@@ -105,21 +102,23 @@ section input::placeholder {
     color: white;
 }
 aside {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+#card {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: absolute;
     width: 350px;
-    height: 599px;
-    left: 1030px;
-    top: 20px;
+    height: 550px;
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
     padding: 10px;
 }
-aside h3 {
+#card h3 {
     font-family: 'Inter';
     font-weight: 700;
     font-size: 24px;
@@ -129,7 +128,7 @@ aside h3 {
     margin-top: 20px;
     margin-bottom: 7px;
 }
-aside p {
+#card p {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
@@ -154,7 +153,64 @@ a {
 a:hover {
     color: rgb(60, 82, 182);
 }
-@media (min-width: 350px) and (max-width: 750px) {
+@media (min-width: 601px) and (max-width: 1024px) {
+  header {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  #card img {
+    display: none;
+  }
+  section input {
+    width: 300px;
+  }
+  #input {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+  }
+  aside {
+    position: absolute;
+    top: 550px;
+    left: 15px;
+  }
+  #card {
+    height: 120px;
+    width: 555px;
+  }
+  #card h3 {
+    margin-top: 0px;
+  }
+  #btn1 {
+    margin-bottom: 15px;
+    width: 350px;
+    height: 60px;
+  }
+  #btn2 {
+    width: 350px;
+    height: 60px;
+  }
+  #position {
+    position: absolute;
+    top: 330px;
+    left: 50px;
+  }
+  #button {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    position: absolute;
+    left: 150px;
+    top: 650px;
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+  }
+}
+@media (min-width: 375px) and (max-width: 600px) {
   header {
     position: absolute;
     top: 15px;
@@ -172,14 +228,16 @@ a:hover {
     left: 50px;
   }
   aside {
-    position: absolute;
-    top: 620px;
-    left: 35px;
+   position: absolute;
+   top: 460px;
+   left: 40px;
+  }
+  #card {
     height: 140px;
-    width: 380px;
+    width: 390px;
     border-radius: 30px;
   }
-  aside h3 {
+  #card h3 {
     margin-top: 0px;
   }
   #btn1 {
@@ -193,7 +251,7 @@ a:hover {
   }
   #position {
     position: absolute;
-    top: 400px;
+    top: 250px;
     left: 30px;
   }
   #button {
@@ -201,8 +259,8 @@ a:hover {
     flex-direction: column;
   }
   footer {
-    position: absolute;
-    top: 790px;
+    position: fixed;
+    top: 610px;
     left: 150px;
     font-size: 12px;
   }
