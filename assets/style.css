@@ -229,7 +229,7 @@ a:hover {
   }
   aside {
    position: absolute;
-   top: 460px;
+   top: 600px;
    left: 40px;
   }
   #card {
@@ -251,7 +251,7 @@ a:hover {
   }
   #position {
     position: absolute;
-    top: 250px;
+    top: 370px;
     left: 30px;
   }
   #button {
@@ -260,7 +260,7 @@ a:hover {
   }
   footer {
     position: fixed;
-    top: 610px;
+    top: 750px;
     left: 150px;
     font-size: 12px;
   }
