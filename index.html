@@ -13,7 +13,7 @@
             <img src="assets/images/Vector_a.png" alt="letra a">
         </header>
         <section>
-           <div id="input"><input type="text" placeholder="Digite seu texto"/></div>
+           <div id="input"><input onkeyup="escondeDiv()" type="text" id="digit" placeholder="Digite seu texto"/></div>
             <div id="position">
                 <div id="notice">
                     <img src="assets/images/Vector.png"  alt="exclamação">
@@ -30,6 +30,10 @@
                     <img src="assets/images/High_quality_products_11.png" alt="mulher olhando pela lupa">
                     <h3>Nenhuma mensagem <br/>encontrada</h3>
                     <p>Digite um texto que você deseja <br/>criptografar ou descriptografar</p>
+                </div>
+                <div id="card2">
+                    <textarea id="show" cols="30" rows="5"></textarea>
+                    <button id="btn3">Copiar</button>
                 </div>
             </aside>
     <footer>
