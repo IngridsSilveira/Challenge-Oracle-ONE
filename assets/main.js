@@ -9,10 +9,6 @@ document.getElementById("btn3").addEventListener("click",function(){
 });
 //Função esconder div
 function escondeDiv() {
-    /*
-    document.getElementById('card2').style.display = "block";
-    document.getElementById('card').style.display = "none";
-    */
     if(document.getElementById("digit").value.length <= 0) {
         document.getElementById('card2').style.display = "none"; 
         document.getElementById('card').style.display = "block";
