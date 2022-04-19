@@ -9,7 +9,7 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background: #F3F5FC;
+    background: #f3f5fc5d;
     padding: 20px;
 }
 header {
@@ -26,21 +26,21 @@ section {
 }
 section input {
     border: none;
-    background: #F3F5FC;
+    background: #f3f5fc5d;
     width: 450px;
     height: 50px;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
     line-height: 48px;
-    color: #0A3871;
+    color: #1abc99;
 }
 section input::placeholder {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
     line-height: 48px;
-    color: #0A3871;
+    color: #1abc99;
 }
 #position {
     position: absolute;
@@ -57,18 +57,17 @@ section input::placeholder {
     padding: 10px;
     font-family: 'Inter';
     color: #495057;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 12px;
     line-height: 18px;
 }
 #button {
     display: flex;
 }
-#btn1 {
+#btn_cript {
     width: 280px;
     height: 50px;
-    padding: 24px;
-    background: #0A3871;
+    background: #1abc99;
     color: white;
     border-radius: 22px;
     font-family: 'Inter';
@@ -79,16 +78,15 @@ section input::placeholder {
     margin-right: 20px;
     cursor: pointer;
 }
-#btn1:hover {
+#btn_cript:hover {
     background-color: #2878d9;
 }
-#btn2 {
+#btn_descript {
     width: 280px;
     height: 50px;
-    padding: 24px;
-    background: #F3F5FC;
-    border: 1px solid #0A3871;
-    color: #0A3871;
+    background: #f3f5fc5d;
+    border: 1px solid #1abc99;
+    color: #1abc99;
     border-radius: 22px;
     font-family: 'Inter';
     font-size: 20px;
@@ -97,17 +95,18 @@ section input::placeholder {
     justify-content: center;
     cursor: pointer;
 }
-#btn2:hover {
-    background-color: #414447;
+#btn_descript:hover {
+    background-color: #2878d9;
     color: white;
+    border: 1px solid #2878d9;
 }
 #btn3 {
   width: 280px;
   height: 50px;
   padding: 24px;
   background: #FFFFFF;
-  color: #0A3871;
-  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  color: #1abc99;
+  border: 1px solid #1abc99;
   border-radius: 22px;
   font-family: 'Inter';
   font-size: 20px;
@@ -120,8 +119,9 @@ section input::placeholder {
   margin-left: 30px;
 }
 #btn3:hover {
-  background-color: #414447;
+  background-color: #2878d9;
   color: white;
+  border: 1px solid #2878d9;
 }
 aside {
   display: flex;
@@ -201,7 +201,7 @@ a {
     text-decoration: none;
     }
 a:hover {
-    color: rgb(60, 82, 182);
+    color: #1abc99;
 }
 @media (min-width: 601px) and (max-width: 1024px) {
   header {
@@ -232,12 +232,12 @@ a:hover {
   #card h3 {
     margin-top: 0px;
   }
-  #btn1 {
+  #btn_cript {
     margin-bottom: 15px;
     width: 350px;
     height: 60px;
   }
-  #btn2 {
+  #btn_descript {
     width: 350px;
     height: 60px;
   }
@@ -302,12 +302,12 @@ a:hover {
   #card h3 {
     margin-top: 0px;
   }
-  #btn1 {
+  #btn_cript {
     margin-bottom: 15px;
     width: 350px;
     height: 60px;
   }
-  #btn2 {
+  #btn_descript {
     width: 350px;
     height: 60px;
   }
