@@ -19,11 +19,11 @@ function escondeDiv() {
 };
 //Variaveis necessárias
 var letras = [
-    //["e", "enter"],
-    //["i", "imes"],
-   //["o", "ober"],
-    //["a", "ai"],
-    //["u", "ufat"],
+    ["e", "enter"],
+    ["i", "imes"],
+    ["o", "ober"],
+    ["a", "ai"],
+    ["u", "ufat"],
 ];
 //Função codificar
 function encripta(texto) {
