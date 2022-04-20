@@ -24,15 +24,6 @@ var letras = [
    //["o", "ober"],
     //["a", "ai"],
     //["u", "ufat"],
-
-//vou remover oq tá embaixo kkkkk
-    ["m", ""],
-    ["a", ""],
-    ["r", "g"],
-    ["c", "a"],
-    ["o", "y"],
-    ["s", "♥"],
-
 ];
 //Função codificar
 function encripta(texto) {
